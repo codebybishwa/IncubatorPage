@@ -1,12 +1,20 @@
-import './App.css'
+import "./App.css";
+import About from "./AboutUs/AboutUs";
+import Contact from "./ContactUs/ContactUs";
+import Mentors from "./OurMentors/Mentors";
+import Photos from "./OurMentors/Photos.json";
+import Footer from "./Footer/Footer";
 
 function App() {
-
   return (
     <>
-     <h1 className='text-blue-500'>Hello Startups</h1>
+      <About />
+    <Contact />
+
+      {/* <Mentors photos={Photos} /> */}
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
