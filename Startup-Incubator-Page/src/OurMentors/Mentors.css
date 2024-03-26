@@ -1,0 +1,30 @@
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .photo-card {
+    flex: 0 0 calc(20% - 20px); /* Set initial width for 5 photos per line */
+    margin: 10px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .photo-card {
+      flex: 0 0 calc(25% - 20px); /* Adjust for 4 photos per line */
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .photo-card {
+      flex: 0 0 calc(33.33% - 20px); /* Adjust for 3 photos per line */
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .photo-card {
+      flex: 0 0 calc(50% - 20px); /* Adjust for 2 photos per line */
+    }
+  }
+  

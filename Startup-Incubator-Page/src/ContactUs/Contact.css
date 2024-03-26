@@ -1,0 +1,11 @@
+.contact {
+    max-width: 90%;
+}
+.wrapper-1 {
+    margin: 2rem 0.5rem;
+}
+.first {
+    border-bottom: 2px solid green;
+    padding: 0 0 3rem 0;
+    width: 70%;
+}
