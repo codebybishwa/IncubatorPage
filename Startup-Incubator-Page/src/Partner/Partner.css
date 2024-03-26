@@ -1,0 +1,18 @@
+.container2 {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider2 {
+    width: 22%;
+}
+
+.slider2 img {
+    width: 100%;
+    height: 300px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: grey;
+}
