@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. G. V. Rao",
+        "position": "Director & Chief, Gastrointestinal & Minimally Invsive Surgery Asian Institute of Gasteroenterology Hyderabad",
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-149.png"
+    },
+    {
+        "id": 2,
+        "name": "Dr.Geetika Madan Patel",
+        "position": "Vice President-Quality, Research and Health Sciences at Parul University, Parul Sevashram Hospital",
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-6-3.png"
+    },
+    {
+        "id": 3,
+        "name": "Vimal Manchanda",
+        "position": "Chief Operating Officer, Samvardhana Motherson Health Solution Limited",
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-5-1.png"
+    },
+    {
+        "id": 4,
+        "name": "Gaurav Agarwal",
+        "position": "Managing Director , Innovation Imaging Technologies Pvt. Ltd.",
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-4-1.png"
+    },
+    {
+        "id": 5,
+        "name": "Praveen Gupta",
+        "position": "Managing Director , at Premas Lifesciences",
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-3-1.png"
+    },
+    {
+        "id": 6,
+        "name": "Kabir Mahajan",
+        "position": "Associate Director, Mahajan Imaging & Labs",
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-2-1.png"
+    },
+    {
+        "id": 7,
+        "name": "Neeraj Lal",
+        "position": "COO, Apollo Hospital",
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-152.png"
+    },
+    {
+        "id": 8,
+        "name": "Santosh Kumar Balivada",
+        "position": "CEO, AMTZ",
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-155.png"
+    },
+    {
+        "id": 9,
+        "name": "Sanjay Jha",
+        "position": "Senior MedTech Consultant",
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/09/Asset-154.png"
+    },
+    {
+        "id": 10,
+        "name": "Nathan A. MarrimMan",
+        "position": "Associate Medical Director, Gastroenterology & Digestive Health",
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-150.png"
+    },
+    {
+        "id": 11,
+        "name": "Prof. Dr. Jan Gutermuth",
+        "position": "Head Dermatology Dept. University Hospital Brussels",
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-148.png"
+    },
+    {
+        "id": 12,
+        "name": "Vikram Anand",
+        "position": "Chief Strategy Officer,  Healthcare Startup",
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-156.png"
+    },
+    {
+        "id": 13,
+        "name": "Dr. Vishal Gandhi",
+        "position": "Founder & CEO, BIORx Venture Advisors",
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-1-1.png"
+    }
+]

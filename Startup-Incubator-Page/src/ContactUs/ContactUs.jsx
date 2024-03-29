@@ -28,19 +28,18 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Form validation
         if (!formData.firstName || !formData.lastName || !formData.phoneNumber || !formData.email || !formData.message) {
             setFormError("Please fill in all fields.");
         } else {
-            setFormError("");
-            console.log(formData); // You can handle form submission here
+            setFormError(""); 
         }
+            console.log(formData);
     };
 
     return (
         <div className="contact my-20 mx-auto flex flex-col md:flex-col lg:flex-row justify-between items-center">
             <div className="contact-col w-1/2 md:w-full sm:w-full">
-                <h1 className="font-bold text-6xl text-[#205B4F]">
+                <h1 className="font-bold text-5xl text-[#205B4F]">
                     Location & Opening <br /> Hours
                 </h1>
                 <div className="wrapper-1 first flex items-start">
@@ -88,10 +87,10 @@ const Contact = () => {
             </div>
             <div className="contact-col w-1/2 md:w-full sm:w-full">
                 <div className="w-full mx-auto mt-10">
-                    <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
+                    <h2 className="text-xl font-bold mb-4 text-[#205B4F]">Contact Us</h2>
                     <form onSubmit={handleSubmit} className="space-y-4 leading-10">
                         <div>
-                            <label className="text-2xl text-[#676767] font-bold">Name</label>
+                            <label className="text-xl text-[#676767] font-bold">Name</label>
                             <div className="flex space-x-4">
                                 <input
                                     type="text"
@@ -114,7 +113,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div>
-                            <label className="text-2xl text-[#676767] font-bold">Phone No.</label>
+                            <label className="text-xl text-[#676767] font-bold">Phone No.</label>
                             <input
                                 type="tel"
                                 name="phoneNumber"
@@ -126,7 +125,7 @@ const Contact = () => {
                             />
                         </div>
                         <div>
-                            <label className="text-2xl text-[#676767] font-bold mt-1.5">Email</label>
+                            <label className="text-xl text-[#676767] font-bold mt-1.5">Email</label>
                             <input
                                 type="email"
                                 name="email"
@@ -138,7 +137,7 @@ const Contact = () => {
                             />
                         </div>
                         <div>
-                            <label className="text-2xl text-[#676767] font-bold mt-1.5">Message</label>
+                            <label className="text-xl text-[#676767] font-bold mt-1.5">Message</label>
                             <textarea
                                 name="message"
                                 value={formData.message}
@@ -151,7 +150,7 @@ const Contact = () => {
                         </div>
                         <button
                             type="submit"
-                            className="w-full bg-green-500 text-white font-semibold px-4 py-2 rounded-md hover:bg-green-600 focus:outline-none focus:bg-green-600"
+                            className="w-full bg-[#205B4F] text-white font-semibold px-4 py-2 rounded-md hover:bg-green-600 focus:outline-none focus:bg-green-600"
                         >
                             Submit
                         </button>

@@ -10,14 +10,21 @@ import Landing from './Landing/Landing'
 import Incubetees from './Incubetees/Incubetees'
 import Partner from './Partner/Partner'
 import WhatsHappening from './WhatsHappeningAtVoh/WhatsHappening'
+import Registration from "./Registration/Registration";
+import Advisors from "./Advisors/Advisors";
 
 function App() {
   return (
     <>
+      <Landing />
       <About />
-    <Contact />
-
-      {/* <Mentors photos={Photos} /> */}
+      <Partner />
+      <Incubetees />
+      <Mentors />
+      <Advisors />
+      <WhatsHappening />
+      <Registration />
+      <Contact />
       <Footer />
     </>
   );

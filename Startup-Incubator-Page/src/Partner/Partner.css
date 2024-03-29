@@ -5,14 +5,22 @@
 }
 
 .slider2 {
-    width: 22%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .slider2 img {
-    width: 100%;
+    width: 30%;
     height: 300px;
+    transform: translateX(118%);
 }
 
 .swiper-button-next, .swiper-button-prev {
     color: grey;
+}
+.swiper-container {
+    width: 100%;
+    height: auto; /* Adjust the height as needed */
 }

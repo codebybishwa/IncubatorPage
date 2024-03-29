@@ -3,66 +3,66 @@
         "id": 1,
         "name": "Dr.Naveen Nishchal",
         "position": "Chairman VOH & Co-founder meddo",
-        "imageUrl": "../assets/mentors/img1"
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-12.png"
     },
     {
         "id": 2,
         "name": "Tarun Aggarwal",
         "position": "Info Edge India, HT Media, College Dekho, IIM-A",
-        "imageUrl": "../assets/mentors/img2"
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-10.png"
     },
     {
         "id": 3,
         "name": "Manu Bhandari",
         "position": "CEO, HelioNext & Culmin",
-        "imageUrl": "../assets/mentors/img3"
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-1.png"
     },
     {
         "id": 4,
         "name": "Vinayak Burman",
         "position": "Managing Partner, VERTICES PARTNERS",
-        "imageUrl": "../assets/mentors/img4"
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-8.png"
     },
     {
         "id": 5,
         "name": "Nav Khosla",
         "position": "Partner, Novo Holdings",
-        "imageUrl": "../assets/mentors/img5"
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-4.png"
     },
     {
         "id": 6,
         "name": "Dr. Mansi Aggarwal",
         "position": "Partner Alkemi Captial",
-        "imageUrl": "../assets/mentors/img6"
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-2.png"
     },
     {
         "id": 7,
         "name": "Stephen Chick",
         "position": "Professor, INSEAD",
-        "imageUrl": "../assets/mentors/img7"
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-153.png"
     },
     {
         "id": 8,
         "name": "Davesh Manocha",
         "position": "Founder, CDM Capital",
-        "imageUrl": "../assets/mentors/img8"
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-3.png"
     },
     {
         "id": 9,
         "name": "Sanjay Jha",
         "position": "Senior MedTech Consultant",
-        "imageUrl": "../assets/mentors/img9"
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/09/Asset-154.png"
     },
     {
         "id": 10,
         "name": "Abhay Vohra",
         "position": "Founder, MetaLaw Offices",
-        "imageUrl": "../assets/mentors/img10"
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-6.png"
     },
     {
         "id": 11,
         "name": "Saurav Chawla",
         "position": "Co-Founder, OkayGo & Fifth Avenue Bakery & Cafe",
-        "imageUrl": "../assets/mentors/img11"
+        "imageUrl": "https://vohincubator.org/wp-content/uploads/2023/08/Asset-5.png"
     }
 ]

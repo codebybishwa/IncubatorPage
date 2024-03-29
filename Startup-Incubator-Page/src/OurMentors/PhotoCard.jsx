@@ -1,13 +1,17 @@
-// PhotoCard.js
 import React from 'react';
 import "./Mentors.css";
+import "../Advisors/Advisors.css"
 
 const PhotoCard = ({ photo }) => {
   return (
-    <div className="photo-card m-10">
-      <img src={photo.imageUrl} alt={photo.name} />
-      <p>{photo.name}</p>
-      <p>{photo.position}</p>
+    <div className='photo-container'>
+      <div className="photo-card">
+        <img src={photo.imageUrl} alt={photo.name} className="photo-image"/>
+      </div>
+      <div className="text-container">
+        <p className="name">{photo.name}</p>
+        <p className="position">{photo.position}</p>
+      </div>
     </div>
   );
 };

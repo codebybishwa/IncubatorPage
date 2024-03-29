@@ -1,7 +1,7 @@
 export default function WhatsHappening() {
     return (
-        <div className="text-center mt-8">
-            <h1 className="text-5xl text-orange-500 mb-4">WHAT'S HAPPENING AT VOH INCUBATOR?</h1>
+        <div className="text-center mt-8 mb-[2rem] mt-[6rem]  max-w-[100vw] ">
+            <h1 className="text-4xl text-[#DFA440] mb-4">WHAT'S HAPPENING AT VOH INCUBATOR?</h1>
             <div className="max-w-lg mx-auto py-8">
                 <p className="text-2xl font-semibold text-black mb-4">
                     There's no limit. We're brimming with ideas and always

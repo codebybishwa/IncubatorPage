@@ -11,8 +11,8 @@ import 'swiper/css/autoplay';
 
 export default function Incubetees() {
     return (
-        <div className="text-center mt-8 container">
-            <h1 className="text-5xl text-orange-500 mb-4">Our Incubatees</h1>
+        <div className="text-center  mb-[2rem] mt-[6rem] container">
+            <h1 className="text-5xl text-[#DFA440]">Our Incubatees</h1>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                 className="slider"
