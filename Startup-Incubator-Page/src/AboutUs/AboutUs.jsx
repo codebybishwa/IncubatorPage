@@ -1,43 +1,56 @@
-import React from "react";
-import Photo from "../assets/AboutUs-Photo.jpg";
-import "./AboutUs.css";
+import React, { useState, useEffect } from "react";
 
-const msg1 = `A great idea is just the beginning`;
-const msg2 = `To grow and blossom, a founder’s vision must meet the experience
-of mentors, the on-ground wisdom of practitioners, connections
-with like-minded peers, the right talent, and the attention of
-both sharks and angels. That is exactly what VOH INCUBATOR is
-intended to achieve.`;
+const About = () => {
+  const [aboutData, setAboutData] = useState(null);
 
-const About = ({ head1 = msg1, para1 = msg2, head2 = msg1, para2 = msg2 }) => {
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(
+          "https://api.nextedge.health/api/v1/incubator/aboutUs"
+        );
+        if (!response.ok) {
+          throw new Error("Failed to fetch data");
+        }
+        const data = await response.json();
+        setAboutData(data.data); // Assuming 'data' is the key containing the desired object
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
-    <>
-      <div className="w-full h-auto bg-white py-4 px-4 ">
-        <h1 className="text-[#DFA440] text-center text-5xl font-bold">About Us</h1>
-        <div className="page w-full bg-[#F0F8FF] my-3">
-          <h3 className="text-2xl text-center py-3">
-            WELCOME TO INDIA'S FIRST AND FOREMOST ENTREPRENEURIAL <br />ECOSYSTEM FOCUSED ON HEALTHCARE
-          </h3>
-          <div className="combined_total flex justify-center items-center my-3 py-4 flex-col md:flex-col lg:flex-row xl:flex-row">
-            <div className="flex-1 px-2 pl-5 py-5">
-              <img src={Photo} className="h-full" alt="" />
+    <div className="bg-white py-4 px-4">
+      <h1 className="text-yellow-500 text-center text-5xl font-bold mb-8">About Us</h1>
+      <div className="bg-blue-50 my-3 py-8 px-4 flex flex-col items-center">
+        {/* Top Heading within the Blue Div */}
+        <h3 className="text-2xl text-center font-bold mb-4">
+          WELCOME TO INDIA'S FIRST AND FOREMOST ENTREPRENEURIAL <br />ECOSYSTEM FOCUSED ON HEALTHCARE
+        </h3>
+        {/* Render About Data if Available */}
+        {aboutData && (
+          <div className="md:w-full flex flex-col md:flex-row items-center">
+            {/* Left column for image */}
+            <div className="md:w-1/3">
+              <img
+                src={aboutData.image}
+                alt={aboutData.heading}
+                className="mx-auto rounded-lg shadow-lg"
+                style={{ maxWidth: "300px" }}
+              />
             </div>
-            <div className="flex-1 content1 px-4 ml-6 flex justify-center items-center flex-col">
-              <h3 className="text-center text-[1.7rem] underline">{head1}</h3>
-              <p className="text-[1.2rem] mt-4 self-start leading-8 font-light">
-                {para1}
-              </p>
-            </div>
-            <div className="flex-1 content1 px-4 ml-6 flex justify-center items-center flex-col">
-              <h3 className="text-center text-[1.7rem] underline">{head2}</h3>
-              <p className="text-[1.2rem] mt-4 self-start leading-8 font-light">
-                {para2}
-              </p>
+            {/* Right column for heading and description */}
+            <div className="md:w-2/3 md:text-center px-4 mt-4 md:mt-0">
+              <h3 className="text-2xl font-bold mb-4">{aboutData.heading}</h3>
+              <p className="text-lg leading-7">{aboutData.description}</p>
             </div>
           </div>
-        </div>
+        )}
       </div>
-    </>
+    </div>
   );
 };
 
